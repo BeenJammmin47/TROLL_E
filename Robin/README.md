@@ -1,6 +1,7 @@
 # Robin's Notebook
 ## 8/27/2026: Senir Project Idea Pitching
 __Coming up with a final project idea__
+
 We thought of an automatic window blind capable of automatically closing and opening using a light and temperature sensor. It will take in the room temperature and compare it to the light intensity outdoors and will decide whether the blinds should be open or closed.
 
 We decided to add a couple of innovations, such as a mobile app implementation, so it can be customized by the user.
@@ -12,6 +13,7 @@ Also considered solar panel implementation, not as the main power source, but as
 
 ## 9/2/2026: Senior Project Idea Pitching
 __New project idea__
+
 After consulting the professor on the automatic curtain device, the idea was abandoned because it was “too difficult to demonstrate” and had nothing innovative about it.
 
 A new idea was made after looking at the group member’s dolly.
@@ -30,6 +32,7 @@ As of now, we are attempting to get project approval first before moving forward
 ## 9/4/2026: TROLL E Features
 __Considering options for the staircase operation__
 __Writing up proposal for approval__
+
 After debating, we considered that automatic staircase operation might be too dangerous and difficult to implement. Instead, we decided to implement a feature that can assist the user in carrying the device (pull up) and down the stairs if the user decides to carry the load through the stairs.
 
 May not be innovative, but considering safety and course limitations, this seems like the appropriate decision.
@@ -46,14 +49,11 @@ The professor has replied to our initial proposal post and asked a couple of que
 
 __Questions & Response:__
 
-__What type of drive and steering system will we use?__
-We will be coding the wheels to move omnidirectionally for steering. There are several online resources to achieve this. 
+__What type of drive and steering system will we use?__ We will be coding the wheels to move omnidirectionally for steering. There are several online resources to achieve this. 
 
-__How many wheels will be powered?:__
-4 total wheels will be powered with their own motors.
+__How many wheels will be powered?:__ 4 total wheels will be powered with their own motors.
 
-__Will you use mecanum wheels?:__
-Yes, it will be more efficient at navigating through obstacles, and suspension is being considered to support the load.
+__Will you use mecanum wheels?:__ Yes, it will be more efficient at navigating through obstacles, and suspension is being considered to support the load.
 
 Our project was approved upon answering those questions, and now we must consider writing up our official proposal and specific components or decisions for the robotic device.
 
