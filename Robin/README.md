@@ -28,6 +28,12 @@ Because of this feature, the robot will have a weight limit where it will alert 
 
 As of now, we are attempting to get project approval first before moving forward in our thinking process.
 
+__Reference Link:__ 
+
+[Link](https://www.youtube.com/shorts/8b46ViqHrco)
+[Link](https://www.youtube.com/shorts/r-vxdZTXooI)
+[Link](https://www.youtube.com/watch?v=9Od0E53R8PE&feature=youtu.be)
+[Link](https://www.youtube.com/shorts/B11AOdH1fYY)
 
 ## 9/4/2026: TROLL E Features
 __Considering options for the staircase operation__
@@ -43,6 +49,9 @@ We also planned out meeting times and possible prototype construction to assist 
 
 *Proposal post submitted on 9/05/2026
 
+__Manual Staircase Operation Implementation Reference:__
+
+[Link](https://www.youtube.com/watch?v=uDIoLHIY1ko)
 
 ## 9/9/2026: Project Approved
 The professor has replied to our initial proposal post and asked a couple of questions regarding the design choices.
@@ -58,4 +67,26 @@ __Will you use mecanum wheels?:__ Yes, it will be more efficient at navigating t
 Our project was approved upon answering those questions, and now we must consider writing up our official proposal and specific components or decisions for the robotic device.
 
 
+## 9/16/2026: Writing Up Official Proposal
 
+The official proposal for the TROLL E project was written up. We came together to make agreements on the overall direction of the project and define some of the operating parameters, such as the desired trailing distance, maximum speed it can travel, obstacle stopping distance, and payload limit.
+
+For my part, I worked on several of the technical sections, including the drivetrain subsystem, control subsystem, power subsystem,weight sensing system, ethical, safety, and societal impact section of the proposal and organized the citations for the proposal.
+
+I also created the main system block diagram based off of Ben's sketch to show how the different subsystems connect with each other. This helped organize the overall design and made it easier to see how power and data would interact and move through the system.
+
+## 9/24/2026: Team Contract
+
+The team contract was written up and signed by all group members. We established expectations for communication, participation, decision-making, meeting times, and how responsibilities would be divided throughout the project.
+
+We agreed to communicate with each other through Discord and in-person discussions, especially when changes are made to important parts of the project such as the PCB design, major design decisions, component purchases, and changes to project are expected to be discussed as a team rather than decided by one person alone.
+
+We alaso assigned general areas of focus based on our prior experience. Ben will focus mainly on sensors and the microcontroller, Daniel on the motors and battery system, and I will focus on sensors while helping with other areas when neeeded. We also agreed that these roles are flexible and that everyone should understand how the complete system works rather than only knowing their assigned subsystems.
+
+I reviewed and signed the contract on 9/24/2026, agreeing to follow the team contract.
+
+## 9/30/2026: Finishing the Design Document
+
+The main goal for this day was to finish and refine the Design Document by finalizing more of the major design chocies for TROLL E.
+
+We continued choosing specific components for the project.
