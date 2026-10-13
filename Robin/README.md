@@ -1,5 +1,5 @@
 # Robin's Notebook
-## 8/27/2026: Senir Project Idea Pitching
+## 8/27/2026: Senior Project Idea Pitching
 __Coming up with a final project idea__
 
 We thought of an automatic window blind capable of automatically closing and opening using a light and temperature sensor. It will take in the room temperature and compare it to the light intensity outdoors and will decide whether the blinds should be open or closed.
@@ -36,7 +36,7 @@ __Reference Link:__
 
 [Complex robot driving on stairs](https://www.youtube.com/watch?v=9Od0E53R8PE&feature=youtu.be)
 
-[Eletric device used to help carry load up stairs](https://www.youtube.com/shorts/B11AOdH1fYY)
+[Electric device used to help carry load up stairs](https://www.youtube.com/shorts/B11AOdH1fYY)
 
 ## 9/4/2026: TROLL E Features
 __Considering options for the staircase operation__
@@ -84,17 +84,17 @@ The team contract was written up and signed by all group members. We established
 
 We agreed to communicate with each other through Discord and in-person discussions, especially when changes are made to important parts of the project such as the PCB design, major design decisions, component purchases, and changes to project are expected to be discussed as a team rather than decided by one person alone.
 
-We alaso assigned general areas of focus based on our prior experience. Ben will focus mainly on sensors and the microcontroller, Daniel on the motors and battery system, and I will focus on sensors while helping with other areas when neeeded. We also agreed that these roles are flexible and that everyone should understand how the complete system works rather than only knowing their assigned subsystems.
+We also assigned general areas of focus based on our prior experience. Ben will focus mainly on sensors and the microcontroller, Daniel on the motors and battery system, and I will focus on sensors while helping with other areas when needed. We also agreed that these roles are flexible and that everyone should understand how the complete system works rather than only knowing their assigned subsystems.
 
 I reviewed and signed the contract on 9/24/2026, agreeing to follow the team contract.
 
 ## 9/30/2026: Finishing the Design Document
 
-The main goal for this day was to finish and refine the Design Document by finalizing more of the major design chocies for TROLL E.
+The main goal for this day was to finish and refine the Design Document by finalizing more of the major design choices for TROLL E.
 
-We continued choosing specific components for the project, including the weight sensing system and the UWB following system. We decided to use multiple load sensors with a combinator and HX711 to that the total cargo weight can be measured when the load is not perfectly centered.
+We continued choosing specific components for the project, including the weight sensing system and the UWB following system. We decided to use multiple load sensors with a combinator and HX711 so that the total cargo weight can be measured when the load is not perfectly centered.
 
-We also decided to abandon the use of LiDAR and focus on ultrasonic sensors for obstacle detection. This simplified the sensing subsystem and reduced the numbber of sensing methods we needed to integrate.
+We also decided to abandon the use of LiDAR and focus on ultrasonic sensors for obstacle detection. This simplified the sensing subsystem and reduced the number of sensing methods we needed to integrate.
 
 The UWB system was also solidified so that TROLL E would use three UWB tags mounted on the cart and a user-carried anchor to estimate the user's relative position and maintain the desired traveling distance.
 
@@ -106,11 +106,11 @@ I also updated the original system block diagram so that it matches the newly se
 
 ## 10/1/2026: Team Design Review Sign Up
 
-We have signed up for team Design Review Presentation on 17:30 on Wednesday and I personally also signed up for the peer review session on the same day at 17:00.
+We have signed up for a team Design Review Presentation at 17:30 on Wednesday and I personally also signed up for the peer review session on the same day at 17:00.
 
 ## 10/2/2026: Finalizing Team Design Document
 
-The team got together and reviewed the design document for errors, citations, and component choices. I made couple of fixes on the system block diagram and reuploaded the image to the doc. After finalizing and agreeing with the document content, the Design document was submitted.
+The team got together and reviewed the design document for errors, citations, and component choices. I made a couple of fixes on the system block diagram and reuploaded the image to the doc. After finalizing and agreeing with the document content, the Design document was submitted.
 
 ## 10/3/2026: KiCAD STM32 PCB Designing
 
@@ -122,12 +122,12 @@ The goal was to catch any major issues early and make sure everyone understood h
 
 ## 10/6/2026: PCB Design Review with TA
 
-We emailed our TA to double-check the STM32 PCB schematic before moving forward with the design. The goal was to make sure that the components we selected and the overall circuit setup was valid for TROLL E. Our TA looked over the schematic and told us that the overall design and selected parts looks good. With that confirmation, we moved forward with organizing the PCB layout and wiring the components together for the next step.
+We emailed our TA to double-check the STM32 PCB schematic before moving forward with the design. The goal was to make sure that the components we selected and the overall circuit setup was valid for TROLL E. Our TA looked over the schematic and told us that the overall design and selected parts looked good. With that confirmation, we moved forward with organizing the PCB layout and wiring the components together for the next step.
 
 ## 10/7/2026: Team Design Review
 
 __Taking Feedback__
-During our design review, a few point were brought up that we need to do more research in and see if we need or should include them to our design. Below is a list of takeaways I wrote down during the review:
+During our design review, a few points were brought up that we need to do more research in and see if we need or should include them in our design. Below is a list of takeaways I wrote down during the review:
 * Stall current, if TROLLE missed an obstacle and is driving into it without moving forward
 * If motors differ slightly, how will we ensure they all rotate at the same speed or the speed desired for omni-movement?
 * Slopes, and how to close feedback loop and slow down on negative slopes
@@ -140,7 +140,7 @@ We need to focus on first developing a working PCB, but will follow up on these 
 
 I managed to finish the remaining wiring for the STM32 PCB and sent the finished PCB to Ben for final review, testing, and ordering.
 
-During the reviewing process and after consulting with our TA, we found several problems with the PCB design. One of the major issue was that the board was larger than the course's standard PCB size allowed for ordering. This issue was also caught late during the review process, and our TA gave us an extension so we would have enough time to resize the board and resolve the problem. 
+During the reviewing process and after consulting with our TA, we found several problems with the PCB design. One of the major issues was that the board was larger than the course's standard PCB size allowed for ordering. This issue was also caught late during the review process, and our TA gave us an extension so we would have enough time to resize the board and resolve the problem. 
 
 After fixing the size issue and correcting the remaining errors found during testing, the PCB passed the required checks and was approved. We were then able to submit the board during the second round of PCB ordering.
 
@@ -148,4 +148,4 @@ After fixing the size issue and correcting the remaining errors found during tes
 
 We signed up for the 11:30 breadboard demo as per course requirement.
 
-We also decided to transition our lab notebook and project records to an electronic format using GitHub. This gave us a more organized way to keep track of our progress and made it easier for all three team members to share documents, PDFs, images, reference links, and other porject files in one place.
+We also decided to transition our lab notebook and project records to an electronic format using GitHub. This gave us a more organized way to keep track of our progress and made it easier for all three team members to share documents, PDFs, images, reference links, and other project files in one place.
