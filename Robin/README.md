@@ -151,9 +151,7 @@ We signed up for the 11:30 breadboard demo as per course requirement.
 We also decided to transition our lab notebook and project records to an electronic format using GitHub. This gave us a more organized way to keep track of our progress and made it easier for all three team members to share documents, PDFs, images, reference links, and other project files in one place.
 
 ## 10/14/26: Breaboard Demo
-__Complexity of Whats Complete__
-__Integrate Different Sensors__
-__Test Ultrasonic__
+__Complexity of Whats Complete__, __Integrate Different Sensors__, __and Test Ultrasonic__
 
 We need to change out our testing board to a dev board using our MCU, which Daniel is doing immediately. Additionally, we have been recommended using another sesnor for detection, or solidifying perfect execution of the ultrasonic sensors for forward sensing. Not only do we have not enough sensors, using more varied sensors adds to complexity and vision.
 
