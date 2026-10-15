@@ -149,3 +149,16 @@ After fixing the size issue and correcting the remaining errors found during tes
 We signed up for the 11:30 breadboard demo as per course requirement.
 
 We also decided to transition our lab notebook and project records to an electronic format using GitHub. This gave us a more organized way to keep track of our progress and made it easier for all three team members to share documents, PDFs, images, reference links, and other project files in one place.
+
+## 10/14/26: Breaboard Demo
+__Complexity of Whats Complete__
+__Integrate Different Sensors__
+__Test Ultrasonic__
+
+We need to change out our testing board to a dev board using our MCU, which Daniel is doing immediately. Additionally, we have been recommended using another sesnor for detection, or solidifying perfect execution of the ultrasonic sensors for forward sensing. Not only do we have not enough sensors, using more varied sensors adds to complexity and vision.
+
+PCB is ordered and coming within a week, we will need to fully test everything before then so that we can actually test the PCB design.
+
+While testing the Ultrasonic, we can see that it is somewhat accurate, sitting around 1-2 cm of error, but will easily read shorter than what we expect if something is slightly in view. This is also a test without a tape measure to confirm, so we will need some method to verify another day. We also noticed that it focuses on the closest obstacle in its field of view, so this will likely remain our safety sensor for obstacle detection as it sees anything close easily. 
+
+I am currently looking into 2D scanning LiDAR and angle-capable mmWave radar as possible options for longer-range obstacle detection, with 2D LiDAR currently looking more promising. I will be looking further into how each option could be implemented into our current design, such as coverage, accuracy, cost, power requirements, and how it will be connected to the STM32. I will be sharing my findings with the rest of my team members before deciding how much additional obstacle detection and naviagtion capability we want to add to TROLL E.
