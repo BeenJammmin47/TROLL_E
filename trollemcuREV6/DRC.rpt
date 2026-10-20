@@ -1,0 +1,29 @@
+** Drc report for trollemcuREV6.kicad_pcb **
+** Created on 2026-10-08T18:29:50 **
+** Report includes: Errors, Warnings **
+
+** Found 3 DRC violations **
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(65.0000 mm, 48.6440 mm): Rectangle on Edge.Cuts
+    @(108.2300 mm, 48.7440 mm): Segment of J6 on f.silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(65.0000 mm, 48.6440 mm): Rectangle on Edge.Cuts
+    @(117.4200 mm, 48.7440 mm): Segment of J6 on f.silkscreen
+[lib_footprint_mismatch]: Footprint 'USB_C_Receptacle_GCT_USB4085' does not match copy in library 'Connector_USB'
+    Local override; warning
+    @(115.8000 mm, 54.7440 mm): Footprint J6
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

@@ -1,0 +1,13 @@
+{
+  "status": "PASS (static consistency, not native KiCad DRC)",
+  "schematic_root_uuid": "cb1d1180-fbb8-4f6b-ae50-e502b4a4b6fd",
+  "symbol_count": 60,
+  "linked_footprints": 60,
+  "pcb_only_mounting_holes": 4,
+  "matched_pad_assignments": 269,
+  "corrected_pin_net_assignments": 80,
+  "unrouted_trace_segments": 0,
+  "existing_ground_vias": 8,
+  "copper_zones": 4,
+  "silkscreen_text_objects": 131
+}

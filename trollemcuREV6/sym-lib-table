@@ -1,0 +1,4 @@
+(sym_lib_table
+ (version 7)
+ (lib (name "TrolleyLib") (type "Legacy") (uri "${KIPRJMOD}/TROLLEmcuREV3-cache.lib") (options "") (descr "Portable project-local symbols"))
+)
