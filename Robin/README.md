@@ -162,3 +162,11 @@ While testing the Ultrasonic, we can see that it is somewhat accurate, sitting a
 I am currently looking into 2D scanning LiDAR and angle-capable mmWave radar as possible options for longer-range obstacle detection, with 2D LiDAR currently looking more promising. I will be looking further into how each option could be implemented into our current design, such as coverage, accuracy, cost, power requirements, and how it will be connected to the STM32. I will be sharing my findings with the rest of my team members before deciding how much additional obstacle detection and naviagtion capability we want to add to TROLL E.
 
 ![Image of Us Testing the Sensors](https://cdn.discordapp.com/attachments/1542305152239669298/1560076309319647272/148422E5-95C8-4AF9-A5C7-DB9018B72593.jpg?ex=6ad165c8&is=6ad01448&hm=73352e0b24ed5bf5d02db10cb29eff96ea9b8272c892ba5269864d3e60e9ae54&)
+
+## 10/17/26: Weight Sensor Component Testing & Integrating Motor and Ultrasonic
+Spent some time with Ben going over the Load Cell, Combinator, and HX711 that I got, thinking about how to integrate it with our motors as we intended. Came up with plans to meet at the lab tomorrow to test the weight sensor components and how well the ultrasonic sensors can be integrated with the motors.
+
+
+## 10/18/26: Ultrasonic & Motor Integration, Load Cell & Motor Integration
+Tested Ultrasonic & Motor code, revising to implement as we want. Currently, there are 2 thresholds for how fast the motor should spin, being full stop at 40 cm, slow speed at 80 cm, and normal speed higher than 80. We can consider more gradual speed change later when we have all our motors we will actually use, along with the dev board or our ordered PCB to convert our current Arduino code to STM.
+Began integrating the Load Cell as well, I soldered the combinator and HX711 together, with one load cell to test before connecting all 4. We had some issues as I misread the data sheet for the connections but we were able to resolve that issue. Another issue that we spotted was the load cells were unstable and may have to be calibrated correctly in order to reduce the error margin. Me and Ben concluded the measurements are good enough as of now for the purpose we are using them for.
