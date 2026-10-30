@@ -170,3 +170,14 @@ Spent some time with Ben going over the Load Cell, Combinator, and HX711 that I 
 ## 10/18/26: Ultrasonic & Motor Integration, Load Cell & Motor Integration
 Tested Ultrasonic & Motor code, revising to implement as we want. Currently, there are 2 thresholds for how fast the motor should spin, being full stop at 40 cm, slow speed at 80 cm, and normal speed higher than 80. We can consider more gradual speed change later when we have all our motors we will actually use, along with the dev board or our ordered PCB to convert our current Arduino code to STM.
 Began integrating the Load Cell as well, I soldered the combinator and HX711 together, with one load cell to test before connecting all 4. We had some issues as I misread the data sheet for the connections but we were able to resolve that issue. Another issue that we spotted was the load cells were unstable and may have to be calibrated correctly in order to reduce the error margin. Me and Ben concluded the measurements are good enough as of now for the purpose we are using them for.
+
+### 10/20/26: Received PCB and ordered components
+At our weekly meeting, we got our PCB and ordered all the components that we needed for the PCB, motors, and sensors. We mostly discussed what to do going forward, as we were not able to do anything more without the necessary components.
+
+### 10/27/26: Preparing for progress demo and soldering PCB
+At our weekly meeting today, our TA explained the logistics and what is expected from us for the upcoming progress demo. With most of our components having arrived, me and Daniel immediately started soldering while Ben was working on the code needed for the progress demo. Due to our busy schedules, we decided to finish up the soldering tomorrow.
+
+### 10/28/26: Finishing up PCB soldering
+Me and Ben were able to finish up soldering most of our components onto the PCB today and check the board for any shorts. We had some trouble soldering our MCU and also noticed that we had the wrong components for the switches (too big). We are contemplating rather we should order new buttons as of now but not our primary concern as of now. Me and Ben also planned out the plans for the upcoming weekend to finish up the battery/motor implementation and our sensor implementation for the progress demo.
+
+
